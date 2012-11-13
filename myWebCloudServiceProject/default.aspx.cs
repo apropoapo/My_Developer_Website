@@ -15,33 +15,33 @@ namespace myWebCloudServiceProject
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            myUsers.updateUserArray(true);
+           // myUsers.updateUserArray(true);
 
-           // testLbl.Text = myUsers.count + "  INIT max: " + myUsers.max;
+           //// testLbl.Text = myUsers.count + "  INIT max: " + myUsers.max;
 
-            Timer1.Enabled = true;
+           // Timer1.Enabled = true;
         }
 
-        protected void Timer1_Tick(object sender, EventArgs e)
-        {
-            //testzweck:
-            lstBox1.Items.Add("------------------- new tick ----------------------");
+        //protected void Timer1_Tick(object sender, EventArgs e)
+        //{
+        //    //testzweck:
+        //    lstBox1.Items.Add("------------------- new tick ----------------------");
 
-            // algo vom backgroundworker
-            if (i % 5 == 0)
-            {   
-                myUsers.updateUserArray(false);
-            }
+        //    // algo vom backgroundworker
+        //    if (i % 5 == 0)
+        //    {   
+        //        myUsers.updateUserArray(false);
+        //    }
 
-            //TESTZWECK
-         //   testLbl.Text = myUsers.count + "  tick max: " + myUsers.max;
-            string[] sArray = myUsers.checkUsers();
-            foreach (string s in sArray)
-            {
-                if (s != null)
-                    lstBox1.Items.Add(s);
-            }
-            i++;
-        }
+        //    //TESTZWECK
+        // //   testLbl.Text = myUsers.count + "  tick max: " + myUsers.max;
+        //    string[] sArray = myUsers.checkUsers();
+        //    foreach (string s in sArray)
+        //    {
+        //        if (s != null)
+        //            lstBox1.Items.Add(s);
+        //    }
+        //    i++;
+        //}
     }
 }
