@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="myMaster.master.cs" Inherits="myWebSite.myMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>Entwicklerlogbuch</title>
+    <link rel=stylesheet type="text/css" href="/Shared/Style.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>   
+     <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+        StartingNodeUrl="~/default.aspx" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="topContent">
+        <h1>Mein <em>tolles</em> Entwicklerlogbuch</h1>
+        <h2>Die Seite dient zur Darstellung meiner Entwicklungsfortschritte und als Testumgebung</h2>
+    </div>
+
+    <div id="leftContent">
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
+           BackColor="#33CCFF" BorderColor="Black" BorderStyle="Solid" BorderWidth="2px" Orientation="Vertical">
+        </asp:Menu>
+    </div>
+    <div id="mainContent">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

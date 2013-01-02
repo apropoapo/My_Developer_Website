@@ -1,0 +1,25 @@
+﻿body 
+{
+    text-align:left;
+}
+
+h1, h2 
+{
+    text-align:center;
+}
+
+#topContent 
+{
+}
+
+#leftContent
+{
+    width:230px;
+    text-align:left;
+    position:absolute;  
+}
+
+#mainContent
+{
+    margin-left:230px;
+}
