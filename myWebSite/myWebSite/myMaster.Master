@@ -4,8 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-
-    <title>Entwicklerlogbuch</title>
+    <title>Untertitel</title>
     <link rel=stylesheet type="text/css" href="/Shared/Style.css">
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>   
@@ -13,18 +12,18 @@
         StartingNodeUrl="~/default.aspx" />
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div id="topContent">
-        <h1>Mein <em>tolles</em> Entwicklerlogbuch</h1>
-        <h2>Die Seite dient zur Darstellung meiner Entwicklungsfortschritte und als Testumgebung</h2>
+    <form id="form1" runat="server" style="padding: 0px; margin: 0px; position: relative; top: 0px; left: 0px;">
+    <div id="topContent" dir="ltr" 
+        style="padding: 0px; margin: 0px; top: -15px; left: -15px;">
+        <h1>Mein Logbuch</h1>
+        <h2>Wohnungslogs</h2>
     </div>
-
     <div id="leftContent">
         <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
-           BackColor="#33CCFF" BorderColor="Black" BorderStyle="Solid" BorderWidth="2px" Orientation="Vertical">
+            Orientation="Horizontal">
         </asp:Menu>
     </div>
-    <div id="mainContent">
+    <div id="mainContent" dir="rtl">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>

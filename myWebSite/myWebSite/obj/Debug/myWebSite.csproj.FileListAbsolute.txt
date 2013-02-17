@@ -3,3 +3,8 @@ C:\Users\Hallo\Documents\GitHub\blub\myWebSite\myWebSite\bin\myWebSite.pdb
 C:\Users\Hallo\Documents\GitHub\blub\myWebSite\myWebSite\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Hallo\Documents\GitHub\blub\myWebSite\myWebSite\obj\Debug\myWebSite.dll
 C:\Users\Hallo\Documents\GitHub\blub\myWebSite\myWebSite\obj\Debug\myWebSite.pdb
+C:\Users\Hallo\Documents\GitHub\My_Developer_Website\myWebSite\myWebSite\bin\myWebSite.dll
+C:\Users\Hallo\Documents\GitHub\My_Developer_Website\myWebSite\myWebSite\bin\myWebSite.pdb
+C:\Users\Hallo\Documents\GitHub\My_Developer_Website\myWebSite\myWebSite\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Hallo\Documents\GitHub\My_Developer_Website\myWebSite\myWebSite\obj\Debug\myWebSite.dll
+C:\Users\Hallo\Documents\GitHub\My_Developer_Website\myWebSite\myWebSite\obj\Debug\myWebSite.pdb

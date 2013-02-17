@@ -8,18 +8,32 @@ h1, h2
     text-align:center;
 }
 
-#topContent 
+#topContent
 {
+    padding: 0;
+    margin: 0px;
+    background-color: #0099FF;
+    position: relative;
+    width: 101%;
+    height: 249px;
+    
 }
 
 #leftContent
 {
-    width:230px;
-    text-align:left;
-    position:absolute;  
+    padding: 0;
+    margin: 0px;
+    width: 230px;
+    text-align: left;
+    position: absolute;
+    background-color: #FF0000;
+    z-index: auto;
+    height: 26%;
+
 }
 
 #mainContent
 {
-    margin-left:230px;
+    margin-left:250px;
+    padding: 40px;
 }
