@@ -14,7 +14,7 @@
             <ItemTemplate>
                 <tr>
                     <td>
-                    <a  href="http://www.google.com">
+                    <a  href='<%# DataBinder.Eval(Container.DataItem, "Link")%>'>
                         <div id="line" />
                         <div id="header">
                             <%# DataBinder.Eval(Container.DataItem, "Header")%></div>

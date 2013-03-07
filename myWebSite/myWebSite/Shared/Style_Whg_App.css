@@ -16,6 +16,11 @@ a:visited
     color:Gray;
    text-decoration :none;  
 }
+a:hover
+{
+    color:616161;
+   text-decoration :none;  
+}
 
 #line
 {
