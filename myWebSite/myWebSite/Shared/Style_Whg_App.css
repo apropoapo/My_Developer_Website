@@ -11,6 +11,12 @@ a:link
     color:Black; 
     text-decoration:none;   
 }
+
+a:visited:hover
+{ 
+    color:Black; 
+    text-decoration:none;   
+}
 a:visited  
 {
     color:Gray;
@@ -18,7 +24,7 @@ a:visited
 }
 a:hover
 {
-    color:616161;
+    color:#616161;
    text-decoration :none;  
 }
 
