@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Untertitel</title>
-    <link rel=stylesheet type="text/css" href="/Shared/Style.css">
+    <link rel="stylesheet" type="text/css" href="/Shared/Style.css"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>   
      <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 

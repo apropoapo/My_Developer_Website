@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.aspx" />
+    <Content Include="Shared\Style_Whg_App.css" />
     <Content Include="Shared\Style.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -117,7 +118,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>60303</DevelopmentServerPort>
+          <DevelopmentServerPort>57680</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
