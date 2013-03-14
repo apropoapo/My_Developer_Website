@@ -15,15 +15,28 @@ namespace myWebSite
 
         DateTime aktuell_alt = new DateTime(0);
         DateTime aktuell_neu = new DateTime(0);
-        bool initial = true;
+     //   bool initial = true;
         const string CONSTRING = "Server=instance29437.db.xeround.com;Port=19153;Database=users;Uid=appharbor;Pwd=NNDKjRzh";
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            Timer1.Enabled = true;
 
-            loadData(initial);
+            loadData(true);
+
+           // System.Threading.Thread.Sleep(10000);
+
+            Timer1.Enabled = true;
             
+            //loadData(true);
+            //while (true)
+            //{
+
+            //    System.Threading.Thread.Sleep(60000);
+            //    loadData(true);
+
+            //}
+
+
         }
 
         DataView CreateDataSource()
@@ -110,7 +123,9 @@ namespace myWebSite
             
             // alarm
             aktuell_alt = aktuell_neu;
-            aktuell_neu = ((System.DateTime)dataRowC[0].ItemArray[11]).AddHours(5.0); 
+            aktuell_neu = ((System.DateTime)dataRowC[0].ItemArray[11]).AddHours(5.0);
+
+            lbl2Test.Text = "alt= " + aktuell_alt + " ||| neu= " + aktuell_neu;
 
             if (j > 20)
             {
@@ -163,15 +178,15 @@ namespace myWebSite
 
             con.Close();
 
-            if (!init)
-                initial = false;
+           // if (!init)
+            //    initial = false;
             
 
         }
 
         protected void Timer1_Tick(object sender, EventArgs e)
         {
-            loadData(initial);
+            loadData(false);
         }
 
     }

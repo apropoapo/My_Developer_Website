@@ -9,10 +9,11 @@
 <body>
     <form id="form1" runat="server">
     <h1>
-        Wohnungslogs - Version 1.1</h1>
+        Wohnungslogs - Version 1.2</h1>
     <h2>
         Changelog: 
         <br />
+        Version 1.2: TEST Alarmverzeichnis.
         Version 1.1: die aktuellsten 40 Wohnungen werden (absteigend sortiert) angezeigt:
         450-850€ Kaltmiete. 2-3 Zimmer. ganz München. Jede Minute wird überprüft ob neue Wohnung -> Wenn ja, dann wird Alarm ausgelöst.</h2>
     <asp:ScriptManager ID="ScriptManager1" runat="server">
@@ -20,6 +21,8 @@
         <asp:Timer ID="Timer1" runat="server" ontick="Timer1_Tick">
     </asp:Timer>
     <asp:Label ID="lbl1" runat="server" Text="Alarmverzeichnis: "></asp:Label>
+    </br>
+     <asp:Label ID="lbl2Test" runat="server" Text="blub"></asp:Label>
     <div>
         <asp:DataList ID="myDatalst" runat="server" CellPadding="0" CellSpacing="0" Width="100%">
             <ItemTemplate>
