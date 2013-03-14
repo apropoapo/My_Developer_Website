@@ -14,6 +14,7 @@
         Changelog: 
         <br />
         Version 1.2: TEST Alarmverzeichnis.
+        <br />
         Version 1.1: die aktuellsten 40 Wohnungen werden (absteigend sortiert) angezeigt:
         450-850€ Kaltmiete. 2-3 Zimmer. ganz München. Jede Minute wird überprüft ob neue Wohnung -> Wenn ja, dann wird Alarm ausgelöst.</h2>
     <asp:ScriptManager ID="ScriptManager1" runat="server">
